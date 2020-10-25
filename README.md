@@ -1,4 +1,4 @@
-# Dataset Link:
+# Dataset can be found at:
 
 https://www.kaggle.com/c/home-credit-default-risk/data
 
@@ -20,3 +20,5 @@ https://www.kaggle.com/c/home-credit-default-risk/data
 - All the missing columns have to undergo imputation or will have to be dropped. Dropping out these columns may lead to poor results.
 - Most of the categorical variables have a relatively small number of unique entries.
 - These issue of categorical variables can be addressed and solved by encoding.
+- Label encoding due to it's arbitary values cannot be used, one-hot encoding is hence used.
+- Label encoding is used for 2 categories and one-hot encoding for anything more than that.
